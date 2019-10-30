@@ -22,7 +22,7 @@ export default async function ({
 
         // This is a placeholder! Replace that with your intent handler(s)!
         // Use dialog.flows if you have multiple handlers.
-        dialog.flow('pokemon_details', handlers.pokemon)
+        dialog.flow('calc_addition', handlers.addition)
     } catch (error) {
         // Output initialization errors to stderr and exit
         const message = await i18n.errorMessage(error)

@@ -10,5 +10,8 @@
     },
     "pokemon": {
         "info": "{{ name }}'s weight is {{ weight }} and its height is {{ height }}."
+    },
+    "calc_result":{
+        "info": "The result is {{ result }}."
     }
 }
